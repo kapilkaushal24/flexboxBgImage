@@ -1,0 +1,22 @@
+/* *{ */
+    /* border: 2px solid black; */
+    
+/* } */
+.flexbox-container{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: yellow;
+}
+img{
+    width: 100%;
+    border: 5px solid red;
+}
+@media (max-width:480px) {
+    .flexbox-container{
+        flex-direction: column;
+    }
+    .flexbox-container{
+        background-color: aquamarine;
+    }
+    
+}
